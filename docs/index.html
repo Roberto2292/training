@@ -4,11 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shopping</title>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <p>Hello world</p>
-<h2>Hi</h2>
-<p>test test test</>
+    <header>
+        <h1>Fruit Shop</h1>
+    </header>
+
+    <div>
+    <div class="item">
+        <h2 class="item1">Banana</h2>
+        <img src="images/banana.jpg" alt="item1" />
+        <p class="price">£4.99/kg</p>
+        <button class="itemButton" type="button" id="item2" onclick="addToCart(e)"><a id="item2" href="#cartContainer">Add to Cart</a></button>
+    </div>
+    </div>
+
+    <div>
+    <div class="item">
+        <h2 class="item2">Strawberry</h2>
+        <img src="images/strawberry.jpg" alt="item2" />
+        <p class="price">£7.99/kg</p>
+        <button class="itemButton" type="button" id="item2" onclick="addToCart(e)"><a id="item2" href="#cartContainer">Add to Cart</a></button>
+    </div>
+    </div>
+
+    <!--
+    <div class="cart">
+
+<div class="cartContainer">
+  <h3>Your basket items</h1>
+    <div id ="cartItems">
+       <div id="CartItem">Name </div>
+
+           <div id="amount">Quantity</div>
+        
+    <div id="cartPrice">Price</div>
+
+   <div id="total">
+     <p>Total: £0.00</p>
+   </div>
+</div>
+-->
+    
 </body>
 </html>

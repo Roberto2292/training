@@ -1,0 +1,48 @@
+body {
+    background-color: greenyellow;
+}
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: aquamarine;
+    background-color: green;
+    padding: 20px;
+    margin: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    padding: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: green;
+    
+}
+.price {
+    font-size: large;
+    text-align: center;
+}
+.itemButton {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding: 0.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    background-color: yellow;
+    cursor: pointer;
+}
+.itemButton:hover {
+    padding: 0.5em;
+    border-radius: 50px;
+    border: none;
+    background-color: yellow;
+    font-size: 1.2em;
+    cursor: pointer;
+}
